@@ -15,10 +15,39 @@ let blocks = [
 //     console.log(xxx)
 // }
 
-// for (let i = 0; i < blocks.length; i++) {
-//     console.log(i)
+// for (let xxx of blocks) {
+//     document.write(`<div class="block-class"> <h4>${xxx.title}</h4></div>`)
 // }
 
-for (let xxx of blocks) {
-    document.write(`<div class="block-class"> <h4>${xxx.title}</h4></div>`)
+// for (let i = 0; i < blocks.length; i++) {
+//     document.write(`<div class="block-class"><h4>${i} ${blocks[i].title}</h4></div>`)
+// }
+
+// for (let block of blocks) {
+//     document.write(`<div class="block-class"><h4>${block.id} ${block.title}</h4></div>`);
+// }
+
+// for (let i = 0; i < blocks.length; i++) {
+//     let block = blocks[i];
+//     console.log(block.id);
+// }
+
+let listOfItems = [
+    'html',
+    'css',
+    'javascript',
+    'mysql',
+    'mongodb',
+    'react',
+    'angular',
+    'node.js'
+];
+
+// for (let i = 0; i < listOfItems.length; i++) {
+//     let listOfItem = listOfItems[i];
+//     document.write(`<p>${listOfItem}</p>`);
+// }
+
+for (let i = 0; i < listOfItems.length; i++) {
+    document.write(`<p>${listOfItems[i]}</p>`);
 }
